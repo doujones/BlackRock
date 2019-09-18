@@ -1,40 +1,34 @@
 {
-  "name": "blackrock",
-  "version": "1.0.0",
-  "description": "TaskHandler",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node index.js",
-    "prod": "parcel build src/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joetta25/BlackRock.git"
-  },
-  "author": "Joetta",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joetta25/BlackRock/issues"
-  },
-  "homepage": "https://github.com/joetta25/BlackRock#readme",
+  "name": "maps",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "aws-sdk": "^2.528.0",
-    "bcrypt": "^3.0.6",
-    "body-parser": "^1.19.0",
-    "connect-session-sequelize": "^6.0.0",
-    "create-react-app": "^3.1.1",
-    "crypto": "^1.0.1",
-    "ejs": "^2.7.1",
-    "express": "^4.17.1",
-    "express-session": "^1.16.2",
-    "lodash": "^4.17.15",
-    "parcel-bundler": "^1.12.3",
-    "pg": "^7.12.1",
-    "pg-hstore": "^2.3.3",
-    "redux": "^4.0.4",
-    "sequelize": "^5.18.4",
-    "sequelize-cli": "^5.5.1"
+    "bootstrap": "^4.3.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
   },
-  "devDependencies": {},
-  "keywords": []
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
